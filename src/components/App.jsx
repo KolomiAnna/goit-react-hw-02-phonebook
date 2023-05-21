@@ -1,16 +1,17 @@
+import React from "react";
+// import Counter from 'components/Counter';
+import Counterr from 'components/Counterr';
+
+
 export const App = () => {
+
+  // formSubmitHandler = data => {
+  //   console.log(data);
+  // }
+
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Counterr />
+    </>
   );
 };
