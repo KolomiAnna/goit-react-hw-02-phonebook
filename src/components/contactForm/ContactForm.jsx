@@ -1,6 +1,8 @@
 import React from "react";
 import shortid from 'shortid'
 
+import css from 'components/contactForm/contactForm.module.css'
+
 class ContactForm extends React.Component {
     state = {
         name: '',
@@ -27,7 +29,7 @@ class ContactForm extends React.Component {
 
     render() {
         return (
-                < form onSubmit={this.handleSubmit} >
+            < form onSubmit={this.handleSubmit} className={css["form"]} >
                     <label htmlFor={this.nameInputId}>Name</label>
                     <input
                         type="text"
