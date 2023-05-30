@@ -1,0 +1,16 @@
+.poo {
+    width: 300px;
+
+}
+
+img{
+    width: 300px;
+}
+
+.poo.blue{
+    background-color: blue;
+}
+
+.poo.red{
+    background-color: red;
+}
